@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.right-tems {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a,
+.menu-bar a,
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.search-bar input {
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.menu-bar {
+  background-color: #444;
+  padding: 10px 20px;
+}
+
+.menu-bar a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.scroll-section {
+  padding: 40px 20px;
+}
+
+.scroll-section h2 {
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+footer .socials a {
+  margin: 0 10px;
+  color: white;
+}
