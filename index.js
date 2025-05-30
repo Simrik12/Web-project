@@ -1,16 +1,16 @@
 const products = {
-  "New Balance FuelCell Rebel v4": { 
+  "Fila Racer Energized": { 
     maxQuantity: 10, 
     sizes: [6, 7, 8, 9, 10], 
-    price: 115,
-    image: "https://nb.scene7.com/is/image/NB/mfcxlk4_nb_02_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880",
+    price: 120,
+    image: "https://fila.veto.gr/images/thumbnails/1200/1200/detailed/1331/1RM02779-293_1.webp",
     category: "men"
   },
   "Adidas Samba OG Shoes": { 
     maxQuantity: 3, 
     sizes: [6, 7, 8, 9, 10], 
     price: 100,
-    image: "https://images.asics.com/is/image/asics/1011B960_020_SR_RT_GLB?$sfcc-product$",
+    image: "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/4c70105150234ac4b948a8bf01187e0c_9366/Samba_OG_Shoes_Black_B75807_01_standard.jpg",
     category: "men"
   },
   "New Balance 574 Sneakers": { 

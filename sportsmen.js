@@ -1,87 +1,45 @@
 const products = {
   "New Balance FuelCell Rebel v4": { 
-    maxQuantity: 10, 
-    sizes: [6, 7, 8, 9, 10], 
+    maxQuantity: 5, 
+    sizes: [7, 8, 9, 10, 11, 12], 
     price: 115,
     image: "https://nb.scene7.com/is/image/NB/mfcxlk4_nb_02_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880",
     category: "men"
   },
-  "Adidas Samba OG Shoes": { 
-    maxQuantity: 3, 
-    sizes: [6, 7, 8, 9, 10], 
-    price: 100,
+  "Asics GEL-CUMULUS 27": { 
+    maxQuantity: 5, 
+    sizes: [7, 8, 9, 10, 11, 12], 
+    price: 135,
     image: "https://images.asics.com/is/image/asics/1011B960_020_SR_RT_GLB?$sfcc-product$",
     category: "men"
   },
-  "New Balance 574 Sneakers": { 
+  "Asics NOVABLAST 5 Track Club": { 
     maxQuantity: 5, 
-    sizes: [6, 7, 8, 9, 10], 
-    price: 90,
-    image: "https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/t/1/c/-original-imah852zfufjwfga.jpeg?q=90&crop=false",
-    category: "men"
-  },
-  "New Balance Men's Coco Delray": {
-    maxQuantity: 6, 
-    sizes: [6, 7, 8, 9, 10], 
-    price: 110,
-    image: "https://nb.scene7.com/is/image/NB/mchcodf2_nb_02_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880",
-    category: "men"
-  },
-  "Adidas Women's Gazelle Bold Shoes": {
-    maxQuantity: 4,
-    sizes: [5, 6, 7, 8, 9], 
-    price: 120,
-    image: "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/55b640477c7c44dcbce23556aebe6d8e_9366/Gazelle_Bold_Shoes_Black_IE0876_01_standard.jpg",
-    category: "women"
-  },
-  "Asics Kid's GT-1000 13 PRE-SCHOOL": {
-    maxQuantity: 5,
-    sizes: [1, 2, 3, 4, 5], 
-    price: 70,
-    image: "https://www.cumminssports.ie/media/catalog/product/cache/d5840a51cf47b9fff9190c64c53c78a2/1/4/141768-6.jpg",
-    category: "kids"
-  },
-  "Fila Women's Solarstride 4": {
-    maxQuantity: 4,
-    sizes: [5, 6, 7, 8, 9], 
-    price: 100,
-    image: "https://www.harrisscarfe.com.au/medias/productHero-SPOTWF-BP664872001-blsh-wht.jpg?context=bWFzdGVyfGltYWdlc3wyMTI0N3xpbWFnZS9qcGVnfGltYWdlcy9oODEvaDM1LzI2NTIwMjgwOTU2OTU4L3Byb2R1Y3RIZXJvX1NQT1RXRl9CUDY2NDg3MjAwMS1ibHNoLXdodC5qcGd8YzBhMjgxZWZlOGI1MTViZTFmODExM2U1NmExZDI2NDlhM2RjNzU4MGU3M2VjMzM0NzlkZTAyMmRjMDY5OTc5Ng",
-    category: "women"
-  },
-  "Asics Gel-Kayano 32": {
-    maxQuantity: 3,
-    sizes: [5, 6, 7, 8, 9], 
+    sizes: [7, 8, 9, 10, 11, 12], 
     price: 150,
-    image: "https://roadrunnersports.widen.net/content/dyaj53ovsl?w=1000&h=1000",
-    category: "women"
+    image: "https://images.asics.com/is/image/asics/1011C027_400_SR_RT_GLB?$sfcc-product$",
+    category: "men"
   },
-  "Adidas Ultraboost 5X Shoes - Tie Dye": {
-    maxQuantity: 4,
-    sizes: [5, 6, 7, 8, 9], 
-    price: 130,
-    image: "https://www.nicekicks.com/files/2021/06/adidas-Ultra-Boost-2021-Tie-Dye-GZ7104-Lead.jpg",
-    category: "women"
+  "Adidas Runfalcon 5 Running Shoes": { 
+    maxQuantity: 5, 
+    sizes: [7, 8, 9, 10, 11, 12], 
+    price: 80,
+    image: "https://i.ebayimg.com/images/g/3K4AAOSwJr1m7uaZ/s-l1200.jpg",
+    category: "men"
   },
-  "Adidas SL 72 RS Shoes Kids": {
-    maxQuantity: 5,
-    sizes: [1, 2, 3, 4, 5], 
-    price: 75,
-    image: "https://assets.adidas.com/images/w_600,f_auto,q_auto/3f485688d0ab4f16a363ac79770a882a_9366/SL_72_RS_Shoes_White_IH4823_01_standard.jpg",
-    category: "kids"
+  "Adidas Adizero EVO SL Shoes": { 
+    maxQuantity: 5, 
+    sizes: [7, 8, 9, 10, 11, 12], 
+    price: 155,
+    image: "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/c2e7843b6be64924943406cfaa899b82_9366/Adizero_EVO_SL_Shoes_White_JH6206_01_00_standard.jpg",
+    category: "men"
   },
-  "New Balance Kids Rave Run v2": {
-    maxQuantity: 4,
-    sizes: [1, 2, 3, 4, 5], 
-    price: 100,
-    image: "https://nb.scene7.com/is/image/NB/pkravag2_nb_02_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880",
-    category: "kids"
-  },
-  "Asics Gel-Kayano 31 Grade School": {
-    maxQuantity: 3,
-    sizes: [1, 2, 3, 4, 5], 
-    price: 90,
-    image: "https://images.asics.com/is/image/asics/1014A342_400_SR_RT_GLB?$sfcc-product$",
-    category: "kids"
+  "Fila Mondo Forza Men White-Navy": { 
+    maxQuantity: 5, 
+    sizes: [7, 8, 9, 10, 11, 12], 
+    price: 170,
+    image: "https://www.fila.de/out/pictures/generated/product/1/630_630_100/fila_mondo_forza_men_white_navy_1716390_v2_1894.jpg",
+    category: "men"
   }
 };
 

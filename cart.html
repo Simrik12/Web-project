@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shoe Haven - Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+<header class="header bg-black text-white">
+  <div class="container py-2">
+ <div class="d-flex justify-content-between align-items-center flex-wrap">
+   <h1 class="logo m-0">Shoe Haven</h1>
+
+   <div class="d-flex align-items-center  gap-3 flex-wrap">
+        <input type="text" placeholder="Search" class="form-control me-2" style="max-width: 200px;">
+        <a href="login.html" class="nav-link text-white d-flex align-items-center"><i class="bi bi-box-arrow-in-right fs-5"></i>Login</a>
+        <a href="#" class="nav-link text-white d-flex align-items-center"><i class="bi bi-person-plus fs-5"></i> Sign Up</a>
+        <a href="cart.html" class="nav-link text-white d-flex align-items-center" id="cartLink"><i class="bi bi-cart fs-5"></i> Cart</a>
+      </div>
+    </div>
+  
+    <nav class="mt-3 d-flex justify-content-center gap-4 fs-6">
+      <a href="index.html" class="nav-link text-white">Home</a>
+
+      <div class="dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="menDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Men
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="menDropdown">
+          <li><a class="dropdown-item" href="sportsmen.html">Running/Sports Shoes</a></li>
+          <li><a class="dropdown-item" href="mensneakers.html">Lifestyle Sneakers</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="womenDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Women
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="womenDropdown">
+          <li><a class="dropdown-item" href="sportswomen.html">Running/Sports Shoes</a></li>
+          <li><a class="dropdown-item" href="womensneakers.html">Lifestyle Sneakers</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <a class="nav-link dropdown-toggle text-white" href="#" id="kidsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Kids
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="kidsDropdown">
+          <li><a class="dropdown-item" href="sportskids.html">Running/Sports Shoes</a></li>
+          <li><a class="dropdown-item" href="kidssneakers.html">Sneakers/Shoes</a></li>
+        </ul>
+      </div>
+    </nav>
+</header>
+
+<main class="container my-5">
+  <h2 class="mb-4">Your Cart</h2>
+  <div id="cartItems" class="row">
+  </div>
+  <div class="text-end mt-4">
+    <h4>Total: $<span id="cartTotal">0.00</span></h4>
+    <button class="btn btn-primary btn-lg mt-3">Proceed to Checkout</button>
+  </div>
+</main>
+
+<script src="cart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

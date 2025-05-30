@@ -1,86 +1,44 @@
 const products = {
-  "New Balance FuelCell Rebel v4": { 
-    maxQuantity: 10, 
-    sizes: [6, 7, 8, 9, 10], 
-    price: 115,
-    image: "https://nb.scene7.com/is/image/NB/mfcxlk4_nb_02_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880",
-    category: "men"
-  },
-  "Adidas Samba OG Shoes": { 
+  "Asics Gel-Kayano 31 Grade School": { 
     maxQuantity: 3, 
-    sizes: [6, 7, 8, 9, 10], 
-    price: 100,
-    image: "https://images.asics.com/is/image/asics/1011B960_020_SR_RT_GLB?$sfcc-product$",
-    category: "men"
-  },
-  "New Balance 574 Sneakers": { 
-    maxQuantity: 5, 
-    sizes: [6, 7, 8, 9, 10], 
+    sizes: [1, 2, 3, 4, 5], 
     price: 90,
-    image: "https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/t/1/c/-original-imah852zfufjwfga.jpeg?q=90&crop=false",
-    category: "men"
-  },
-  "New Balance Men's Coco Delray": {
-    maxQuantity: 6, 
-    sizes: [6, 7, 8, 9, 10], 
-    price: 110,
-    image: "https://nb.scene7.com/is/image/NB/mchcodf2_nb_02_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880",
-    category: "men"
-  },
-  "Adidas Women's Gazelle Bold Shoes": {
-    maxQuantity: 4,
-    sizes: [5, 6, 7, 8, 9], 
-    price: 120,
-    image: "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/55b640477c7c44dcbce23556aebe6d8e_9366/Gazelle_Bold_Shoes_Black_IE0876_01_standard.jpg",
-    category: "women"
-  },
-  "Asics Kid's GT-1000 13 PRE-SCHOOL": {
-    maxQuantity: 5,
-    sizes: [1, 2, 3, 4, 5], 
-    price: 70,
-    image: "https://www.cumminssports.ie/media/catalog/product/cache/d5840a51cf47b9fff9190c64c53c78a2/1/4/141768-6.jpg",
+    image: "https://images.asics.com/is/image/asics/1014A342_400_SR_RT_GLB?$sfcc-product$",
     category: "kids"
   },
-  "Fila Women's Solarstride 4": {
-    maxQuantity: 4,
-    sizes: [5, 6, 7, 8, 9], 
-    price: 100,
-    image: "https://www.harrisscarfe.com.au/medias/productHero-SPOTWF-BP664872001-blsh-wht.jpg?context=bWFzdGVyfGltYWdlc3wyMTI0N3xpbWFnZS9qcGVnfGltYWdlcy9oODEvaDM1LzI2NTIwMjgwOTU2OTU4L3Byb2R1Y3RIZXJvX1NQT1RXRl9CUDY2NDg3MjAwMS1ibHNoLXdodC5qcGd8YzBhMjgxZWZlOGI1MTViZTFmODExM2U1NmExZDI2NDlhM2RjNzU4MGU3M2VjMzM0NzlkZTAyMmRjMDY5OTc5Ng",
-    category: "women"
-  },
-  "Asics Gel-Kayano 32": {
-    maxQuantity: 3,
-    sizes: [5, 6, 7, 8, 9], 
-    price: 150,
-    image: "https://roadrunnersports.widen.net/content/dyaj53ovsl?w=1000&h=1000",
-    category: "women"
-  },
-  "Adidas Ultraboost 5X Shoes - Tie Dye": {
-    maxQuantity: 4,
-    sizes: [5, 6, 7, 8, 9], 
-    price: 130,
-    image: "https://www.nicekicks.com/files/2021/06/adidas-Ultra-Boost-2021-Tie-Dye-GZ7104-Lead.jpg",
-    category: "women"
-  },
-  "Adidas SL 72 RS Shoes Kids": {
-    maxQuantity: 5,
-    sizes: [1, 2, 3, 4, 5], 
-    price: 75,
-    image: "https://assets.adidas.com/images/w_600,f_auto,q_auto/3f485688d0ab4f16a363ac79770a882a_9366/SL_72_RS_Shoes_White_IH4823_01_standard.jpg",
-    category: "kids"
-  },
-  "New Balance Kids Rave Run v2": {
-    maxQuantity: 4,
+  "New Balance Kids Rave Run v2": { 
+    maxQuantity: 4, 
     sizes: [1, 2, 3, 4, 5], 
     price: 100,
     image: "https://nb.scene7.com/is/image/NB/pkravag2_nb_02_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880",
     category: "kids"
   },
-  "Asics Gel-Kayano 31 Grade School": {
-    maxQuantity: 3,
+  "Adidas Ultrarun 5 Shoes Kids": { 
+    maxQuantity: 5, 
     sizes: [1, 2, 3, 4, 5], 
-    price: 90,
-    image: "https://images.asics.com/is/image/asics/1014A342_400_SR_RT_GLB?$sfcc-product$",
+    price: 60,
+    image: "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/f7a864cf0d3d431dbc7981bba64e96c2_9366/Ultrarun_5_Shoes_Kids_Black_IF4143_01_standard.jpg",
+    category: "kids"
+  },
+  "Fila Kids Landbuzzer Ombre":{
+    maxQuantity: 8,
+    sizes: [1, 2, 3, 4, 5], 
+    price: 80,
+    image: "https://jcpenney.scene7.com/is/image/JCPenney/DP0619202315001919M?hei=350&wid=350&op_usm=.4,.8,0,0&resmode=sharp2&op_sharpen=1", 
+    category:"kids"
+  },
+  "New Balance Kids Fresh Foam 625": { 
+    maxQuantity: 4, 
+    sizes: [1, 2, 3, 4, 5], 
+    price: 50,
+    image: "https://nb.scene7.com/is/image/NB/nw625rd_nb_02_i?$pdpflexf22x$&qlt=80&fmt=webp&wid=880&hei=880",
+    category: "kids"
+  },
+  "Adidas Duramo SL Shoes Kids": { 
+    maxQuantity: 5, 
+    sizes: [1, 2, 3, 4, 5], 
+    price: 65,
+    image: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b0fb9a67f18f441483fb29d74dd508cb_9366/Duramo_SL_Shoes_Kids_Blue_IG2459_01_standard.jpg",
     category: "kids"
   }
 };
@@ -90,6 +48,7 @@ let cart = JSON.parse(localStorage.getItem('cart')) || [];
 document.addEventListener('DOMContentLoaded', function() {
   updateCartCount();
   setupAddToCartButtons();
+  setupSorting();
 });
 
 function updateCartCount() {
@@ -99,7 +58,7 @@ function updateCartCount() {
   const cartLink = document.getElementById('cartLink');
   if (cartLink) {
     const badge = cartLink.querySelector('.cart-badge') || document.createElement('span');
-    badge.className = 'cart-badge';
+    badge.className = 'cart-badge ms-1 bg-danger rounded-circle px-2';
     badge.textContent = cartCount;
     
     if (cartCount > 0) {
@@ -109,7 +68,6 @@ function updateCartCount() {
     }
   }
 }
-
 
 function setupAddToCartButtons() {
   document.querySelectorAll('.btn.btn-primary').forEach(btn => {
@@ -142,7 +100,7 @@ function showSizeModal(productName, product) {
   const productDescription = document.getElementById('productDescription');
   const modalAddToCartBtn = document.getElementById('modalAddToCart');
   
- 
+  
   modalAddToCartBtn.disabled = true;
   modalAddToCartBtn.dataset.product = '';
   modalAddToCartBtn.dataset.size = '';
@@ -156,7 +114,7 @@ function showSizeModal(productName, product) {
     btn.textContent = size;
     btn.dataset.size = size;
     btn.addEventListener('click', function() {
-      
+     
       document.querySelectorAll('#sizeOptions .btn').forEach(b => {
         b.classList.remove('active', 'btn-primary');
         b.classList.add('btn-outline-primary');
@@ -189,7 +147,7 @@ function addToCart(productName, size) {
   
   if (existingItem) {
     if (existingItem.quantity >= product.maxQuantity) {
-      
+      alert(`Maximum quantity (${product.maxQuantity}) reached for this item!`);
       return;
     }
     existingItem.quantity++;
@@ -206,5 +164,33 @@ function addToCart(productName, size) {
   
   localStorage.setItem('cart', JSON.stringify(cart));
   updateCartCount();
- 
 }
+
+function setupSorting() {
+  const sortSelect = document.getElementById('sortSelect');
+  if (sortSelect) {
+    sortSelect.addEventListener('change', function() {
+      const productContainer = document.getElementById('productContainer');
+      const productCards = Array.from(productContainer.querySelectorAll('.product-card'));
+      
+      productCards.sort((a, b) => {
+        const priceA = parseFloat(a.dataset.price);
+        const priceB = parseFloat(b.dataset.price);
+        
+        if (this.value === 'lowToHigh') {
+          return priceA - priceB;
+        } else if (this.value === 'highToLow') {
+          return priceB - priceA;
+        }
+        return 0;
+      });
+      
+      
+      productCards.forEach(card => {
+        card.parentElement.remove();
+        productContainer.appendChild(card.parentElement);
+      });
+    });
+  }
+}
+  
